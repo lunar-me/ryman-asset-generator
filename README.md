@@ -61,6 +61,8 @@ python ryman-asset-generator.py --rows 5000 --output demo_assets.csv
 
 Each row represents one technology asset with fields commonly found in ServiceNow Hardware Asset Management / CMDB exports.
 
+> **Full column reference:** See [ryman_assets_metadata.md](ryman_assets_metadata.md) for a complete table of all 37 columns, data types, descriptions, and the deliberate data-quality anomalies built into the dataset.
+
 ### Core identifiers
 `sys_id`, `asset_tag`, `serial_number`, `ci_name`, `model`, `manufacturer`, `asset_type`
 
@@ -177,6 +179,7 @@ pip install -r requirements.txt
 ryman-asset-generator/
 ├── ryman-asset-generator.py   # Generate synthetic asset CSV
 ├── upload_to_supabase.py      # Upload CSV to Supabase (re-creates table)
+├── ryman_assets_metadata.md   # Full column reference & data-quality notes
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
