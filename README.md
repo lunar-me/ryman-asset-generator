@@ -317,3 +317,4 @@ Free to use, modify and share for personal, educational and commercial projects.
 This project generates **completely synthetic data**.  
 It is not affiliated with, endorsed by, or connected to Ryman Healthcare (or any other organisation).  
 Location and naming conventions are fictionalised for realism only.
+(c) 2026 lunar-me. All rights reserved.
